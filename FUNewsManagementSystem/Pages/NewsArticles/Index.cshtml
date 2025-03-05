@@ -24,7 +24,7 @@
             </select>
 
             <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
-            <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-sync-alt"></i> Reset</a>
+            <a asp-page="Index" class="btn btn-secondary"><i class="fas fa-sync-alt"></i> Reset</a>
         </form>
     </div>
 </div>
@@ -50,7 +50,7 @@
             <th>Actions</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="newsTableBody">
         @foreach (var item in Model.NewsArticle)
         {
             <tr>
@@ -86,10 +86,32 @@
 </table>
 
 @section Scripts {
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
     <script>
-        function confirmDelete() {
-            return confirm("Are you sure you want to delete this news article?");
-        }
+        var connection = new signalR.HubConnectionBuilder()
+            .withUrl("/newsHub")
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        connection.on("ReceiveNewsUpdate", function (message) {
+            alert("📢 News Update: " + message);
+            location.reload(); 
+        });
+
+        connection.on("ReceiveNewsEdit", function (message) {
+            alert("✏️ News Edited: " + message);
+            location.reload();
+        });
+
+        connection.on("ReceiveNewsDelete", function (message) {
+            alert("🗑️ News Deleted: " + message);
+            location.reload();
+        });
+
+        connection.start()
+            .then(() => console.log("✅ Connected to SignalR"))
+            .catch(err => console.error("❌ SignalR Connection Error: ", err));
     </script>
 }
+

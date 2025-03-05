@@ -1,10 +1,12 @@
 using BusinessObjects;
 using FUNewsManagementSystem;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Repository.Interfaces;
 using Repository.Repositories;
 using Repository.UOW;
+using Service.Hubs;
 using Service.Interfaces;
 using Service.Services;
 
@@ -18,6 +20,8 @@ builder.Services.AddDbContext<FunewsManagementContext>(options =>
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+builder.Services.AddSignalR();
+
 builder.Services.AddScoped<ISystemAccountRepository, SystemAccountRepository>();
 builder.Services.AddScoped<ISystemAccountService, SystemAccountService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -26,6 +30,7 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<INewArticleService, NewsArticleService>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<ITagService, TagService>();
+
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -48,6 +53,8 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -57,6 +64,9 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
+app.MapHub<NewsHub>("/newsHub");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

@@ -1,10 +1,10 @@
 ﻿using BusinessObjects;
+using Microsoft.AspNetCore.SignalR;
 using Repository.UOW;
+using Service.Hubs; 
 using Service.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Service.Services
@@ -12,20 +12,24 @@ namespace Service.Services
     public class NewsArticleService : INewArticleService
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IHubContext<NewsHub> _newsHubContext;
 
-        public NewsArticleService(IUnitOfWork unitOfWork)
+        public NewsArticleService(IUnitOfWork unitOfWork, IHubContext<NewsHub> newsHubContext)
         {
             _unitOfWork = unitOfWork;
+            _newsHubContext = newsHubContext;
         }
 
         public async Task AddNewsArticleAsync(NewsArticle article, List<int> tags)
         {
             await _unitOfWork.NewsArticleRepository.CreateAsync(article, tags);
+            await _newsHubContext.Clients.All.SendAsync("ReceiveNewsUpdate", $"New article published: {article.NewsTitle}");
         }
 
         public async Task DeleteNewsArticleAsync(string id)
         {
             await _unitOfWork.NewsArticleRepository.DeleteAsync(id);
+            await _newsHubContext.Clients.All.SendAsync("ReceiveNewsUpdate", "An article was deleted!");
         }
 
         public async Task<IEnumerable<NewsArticle>> GetAllNewsArticlesAsync()
@@ -66,6 +70,8 @@ namespace Service.Services
         public async Task UpdateNewsArticleAsync(NewsArticle article, List<int> tags)
         {
             await _unitOfWork.NewsArticleRepository.UpdateAsync(article, tags);
+            await _newsHubContext.Clients.All.SendAsync("ReceiveNewsEdit", $"Article updated: {article.NewsTitle}");
         }
     }
-}
+    }
+
