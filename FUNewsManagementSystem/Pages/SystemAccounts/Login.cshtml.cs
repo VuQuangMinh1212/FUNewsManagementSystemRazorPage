@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pag
 using Service.Interfaces;
 using System.Security.Claims;
 
-namespace FUNewsManagementSystem.Pages.SystemAccount
+namespace FUNewsManagementSystem.Pages.SystemAccounts
 {
     public class LoginModel : PageModel
     {
@@ -28,7 +28,7 @@ namespace FUNewsManagementSystem.Pages.SystemAccount
 
         public async Task<IActionResult> OnPost()
         {
-            var adminEmail = "Admin";
+            var adminEmail = "Admin@gmail.com";
             var adminPassword = "123";
 
             // Check Admin Credentials from Configuration

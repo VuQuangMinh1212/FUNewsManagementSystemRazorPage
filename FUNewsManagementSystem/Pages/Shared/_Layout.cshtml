@@ -35,7 +35,7 @@
                             <a class="nav-link text-light" asp-controller="Home" asp-action="Privacy"><i class="fas fa-user-secret"></i> Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-controller="NewsArticles" asp-action="Index"><i class="fas fa-newspaper"></i> News</a>
+                            <a class="nav-link text-light" asp-page="/NewsArticles/Index"><i class="fas fa-newspaper"></i> News</a>
                         </li>
 
                         @{
@@ -54,10 +54,10 @@
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-controller="SystemAccounts" asp-action="Index"><i class="fas fa-users-cog"></i> Accounts</a>
+                                <a class="nav-link text-light" asp-page="/SystemAccounts/Index"><i class="fas fa-users-cog"></i> Accounts</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-controller="NewsArticles" asp-action="Report"><i class="fas fa-chart-bar"></i> Report</a>
+                                <a class="nav-link text-light" asp-page="/NewsArticles/Report"><i class="fas fa-chart-bar"></i> Report</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-light" asp-controller="SystemAccounts" asp-action="Logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
@@ -70,18 +70,18 @@
                         @if (User.IsInRole("Staff"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-controller="Categories" asp-action="Index"><i class="fas fa-list"></i> Categories</a>
+                                <a class="nav-link text-light" asp-page="/Categories/Index"><i class="fas fa-list"></i> Categories</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-controller="Tags" asp-action="Index"><i class="fas fa-tags"></i> Tags</a>
+                                <a class="nav-link text-light" asp-page="/Tags/Index"><i class="fas fa-tags"></i> Tags</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-controller="SystemAccounts" asp-action="Details" asp-route-id="@accountId">
+                                <a class="nav-link text-light" asp-page="/SystemAccounts/Detail" asp-route-id="@accountId">
                                     <i class="fas fa-user"></i> Profile
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="NewsArticles" asp-action="History">
+                                <a class="nav-link" asp-page="/NewsArticles/History">
                                     <i class="fas fa-history"></i> My News History
                                 </a>
                             </li>

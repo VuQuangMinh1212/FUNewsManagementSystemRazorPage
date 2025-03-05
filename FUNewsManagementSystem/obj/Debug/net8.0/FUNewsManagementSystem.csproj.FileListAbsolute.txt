@@ -1,3 +1,12 @@
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.csproj.AssemblyReference.cache
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.AssemblyInfoInputs.cache
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.AssemblyInfo.cs
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.csproj.CoreCompileInputs.cache
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.RazorAssemblyInfo.cache
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.RazorAssemblyInfo.cs
+E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.sourcelink.json
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\appsettings.json
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\FUNewsManagementSystem.staticwebassets.runtime.json
@@ -239,14 +248,6 @@ E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\Ser
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\Service.pdb
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\BusinessObjects.pdb
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\bin\Debug\net8.0\Repository.pdb
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.csproj.AssemblyReference.cache
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.AssemblyInfoInputs.cache
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.AssemblyInfo.cs
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.csproj.CoreCompileInputs.cache
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.MvcApplicationPartsAssemblyInfo.cache
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.RazorAssemblyInfo.cache
-E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.RazorAssemblyInfo.cs
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\scopedcss\bundle\FUNewsManagementSystem.styles.css
 E:\FPT\semester_7\PRN222\Assignment2\FUNewsManagementSystem\obj\Debug\net8.0\scopedcss\projectbundle\FUNewsManagementSystem.bundle.scp.css
