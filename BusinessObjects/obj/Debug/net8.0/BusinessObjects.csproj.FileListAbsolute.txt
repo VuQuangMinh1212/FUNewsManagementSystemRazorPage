@@ -1,0 +1,14 @@
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+E:\FPT\semester_7\PRN222\Assignment2\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

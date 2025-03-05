@@ -1,0 +1,11 @@
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+E:\FPT\semester_7\PRN222\Assignment2\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
