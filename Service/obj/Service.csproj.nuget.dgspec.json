@@ -96,12 +96,12 @@
         }
       }
     },
-    "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\Repository.csproj": {
+    "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\FUNewsManagementSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\FUNewsManagementSystem.DAL.csproj",
+        "projectName": "FUNewsManagementSystem.DAL",
+        "projectPath": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\FUNewsManagementSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\dungp\\.nuget\\packages\\",
         "outputPath": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -201,8 +201,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\Repository.csproj": {
-                "projectPath": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\Repository.csproj"
+              "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\FUNewsManagementSystem.DAL.csproj": {
+                "projectPath": "E:\\Semester07\\PRN222\\Assignments\\FUNewsManagementSystemRazorPage\\Repository\\FUNewsManagementSystem.DAL.csproj"
               }
             }
           }

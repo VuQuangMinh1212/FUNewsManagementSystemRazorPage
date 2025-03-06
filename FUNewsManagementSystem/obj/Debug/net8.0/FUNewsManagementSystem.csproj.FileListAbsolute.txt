@@ -507,11 +507,7 @@ E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagemen
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\BusinessObjects.dll
-E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\Repository.dll
-E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\Service.dll
-E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\Service.pdb
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\BusinessObjects.pdb
-E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\Repository.pdb
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.csproj.AssemblyReference.cache
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.AssemblyInfoInputs.cache
@@ -540,3 +536,7 @@ E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagemen
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.pdb
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\obj\Debug\net8.0\FUNewsManagementSystem.genruntimeconfig.cache
 E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\obj\Debug\net8.0\ref\FUNewsManagementSystem.dll
+E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\FUNewsManagementSystem.BLL.dll
+E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\FUNewsManagementSystem.DAL.dll
+E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\FUNewsManagementSystem.BLL.pdb
+E:\Semester07\PRN222\Assignments\FUNewsManagementSystemRazorPage\FUNewsManagementSystem\bin\Debug\net8.0\FUNewsManagementSystem.DAL.pdb

@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "FUNewsManagementSystem/1.0.0": {
         "dependencies": {
+          "FUNewsManagementSystem.BLL": "1.0.0",
           "Microsoft.AspNetCore.SignalR": "1.2.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
-          "Service": "1.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
         },
         "runtime": {
           "FUNewsManagementSystem.dll": {}
@@ -2149,25 +2149,25 @@
           }
         }
       },
-      "Repository/1.0.0": {
+      "FUNewsManagementSystem.BLL/1.0.0": {
         "dependencies": {
-          "BusinessObjects": "1.0.0",
+          "FUNewsManagementSystem.DAL": "1.0.0",
           "Microsoft.AspNetCore.SignalR": "1.2.0"
         },
         "runtime": {
-          "Repository.dll": {
+          "FUNewsManagementSystem.BLL.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Service/1.0.0": {
+      "FUNewsManagementSystem.DAL/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.SignalR": "1.2.0",
-          "Repository": "1.0.0"
+          "BusinessObjects": "1.0.0",
+          "Microsoft.AspNetCore.SignalR": "1.2.0"
         },
         "runtime": {
-          "Service.dll": {
+          "FUNewsManagementSystem.DAL.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -3530,12 +3530,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Repository/1.0.0": {
+    "FUNewsManagementSystem.BLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Service/1.0.0": {
+    "FUNewsManagementSystem.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

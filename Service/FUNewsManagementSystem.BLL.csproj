@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
+    <ProjectReference Include="..\Repository\FUNewsManagementSystem.DAL.csproj" />
   </ItemGroup>
 
 </Project>
